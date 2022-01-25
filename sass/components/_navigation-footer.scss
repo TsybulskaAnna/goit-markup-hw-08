@@ -1,0 +1,38 @@
+.section-footer {
+    background-color: var(--fon-section-first-color);
+    padding-top: 64px;
+    padding-bottom: 60px;
+  }
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+  }
+  .contact-footer {
+    margin-top: 20px;
+  }
+  .contact-text-footer:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .contact-footer .footer-text {
+    color: var(--title-text-color);
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-text.maps {
+    color: var(--background-color);
+  }
+  .maps :hover,
+  .maps :focus {
+    color: var(--accent-color);
+  }
+  .contact-footer .footer-text:hover,
+  .contact-footer .footer-text:focus {
+    color: var(--accent-color);
+  }

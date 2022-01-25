@@ -1,0 +1,33 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.14;
+    margin-right: 93px;
+  }
+  .span-first {
+    color: var(--logo-second-color);
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.14;
+  }
+  .footer-logo {
+    color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.14;
+  }
+  .span-second {
+    color: var(--background-color);
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.14;
+  }
